@@ -1,0 +1,251 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #eeeeee;
+}
+div.main{
+	display:flex;
+	margin-top: 100px;
+	margin-left: 144px;
+  	margin-right: 108px;
+    background-color: white
+}
+div.main > div.left{
+background-color: #caa8dd;
+width: 300px;
+height: 940px;
+}
+div.main > div.left div.profile > div.image img{
+	width: 260px;
+	height: 300px;
+	padding: 12px;
+}
+
+div.name{
+	height: 40px;
+	background-color: #be9b7b;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px 20px 10px 50px; 
+    border-radius:30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+div.contact, div.github,div.facebook,div.gmail, div.codechef, div.codeforces,div.linkedin{
+	height: 30px;
+	background-color: #be9b7b;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 10px 0px 10px 50px; 
+    border-radius:30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+ div.github > a ,div.facebook > a ,div.gmail > a{
+ 	text-decoration: none;
+ }
+
+div.main > div.right{
+	margin-left: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+h3{
+color: #cc6600;
+}
+div.main > div.right > div.intro{
+	padding:24px;
+    margin: 10px;
+    background-color: white;
+    width: 200px;
+    line-height: 1.5em;
+}
+
+div.main > div.right > div.Education{
+	padding:24px;
+	margin: 10px;
+    background-color: white;
+    width: 150px;
+
+}
+div.main > div.right > div.skills{
+	padding:24px;
+    margin: 10px;
+    background-color: white;
+    width: 150px;
+
+}
+div.main > div.right > div.special{
+	padding:24px;
+    margin: 10px;
+    background-color: white;
+    width: 150px;
+        line-height: 1.5em;
+
+}
+
+
+div.image img{
+    width: 100px;
+    height: 60px;
+}
+
+div.image li{
+    list-style-type: none;
+}
+
+div.main > div.right > div.programmming{
+	padding:24px;
+    margin: 10px;
+    background-color: white;
+    width: 150px;
+}
+div.main > div.right > div.hobbies{
+	padding:24px;
+    margin: 10px;
+    background-color: white;
+    width: 150px;
+}
+
+div.html{
+	height: 20px;
+	width: 180px;
+	background: linear-gradient(to right,  #ffcc66 80%,#f6f6f6 30%);
+}
+
+.htest{
+
+    padding: 0px 0px 0px 0px;
+    background-color: #ffcc66;
+    width:36px;
+    height:20px;
+    margin: 0px 0px 0px 116px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div.css{
+    height: 20px;
+    width: 180px;
+    background: linear-gradient(to right,  #ffcc66 70%,#f6f6f6 30%);
+}
+.ctest{
+    padding: 0px 0px 0px 0px;
+    background-color: #ffcc66;
+    width:36px;
+    height:20px;
+    margin: 0px 0px 0px 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div.js{
+    height: 20px;
+    width: 180px;
+    background: linear-gradient(to right,  #ffcc66 30%,#f6f6f6 30%);
+}
+.jtest{
+    padding: 0px 0px 0px 0px;
+    background-color: #ffcc66;
+    width:36px;
+    height:20px;
+    margin: 0px 0px 0px 32px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div.php{
+    height: 20px;
+    width: 180px;
+    background: linear-gradient(to right,  #ffcc66 20%,#f6f6f6 30%);
+}
+.ptest{
+    padding: 0px 0px 0px 0px;
+    background-color: #ffcc66;
+    width:36px;
+    height:20px;
+    margin: 0px 0px 0px 16px;
+    border-radius: 20px;
+    text-align: center;
+}
+div.ror{
+    height: 20px;
+    width: 180px;
+    background: linear-gradient(to right,  #ffcc66 62%,#f6f6f6 30%);
+}
+.rtest{
+    padding: 0px 0px 0px 0px;
+    background-color: #ffcc66;
+    width:36px;
+    height:20px;
+    margin: 0px 0px 0px 85px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+ ul > li{
+list-style-type: none;
+}
+
+.java{
+    height: 20px;
+    width: 180px;
+    background: linear-gradient(to right,  #ffcc66 85%,#f6f6f6 30%);
+}
+
+.javatest{
+    padding: 0px 0px 0px 0px;
+    background-color: #ffcc66;
+    width:36px;
+    height:20px;
+    margin: 0px 0px 0px 125px;
+    border-radius: 20px;
+    text-align: center;
+}
+.cplus{
+    height: 20px;
+    width: 180px;
+    background: linear-gradient(to right,  #ffcc66 75%,#f6f6f6 30%);
+}
+
+.cplustest{
+    padding: 0px 0px 0px 0px;
+    background-color: #ffcc66;
+    width:36px;
+    height:20px;
+    margin: 0px 0px 0px 108px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ruby{
+height: 20px;
+    width: 180px;
+    background: linear-gradient(to right,  #ffcc66 65%,#f6f6f6 30%);
+}
+
+.rubytest{
+    padding: 0px 0px 0px 0px;
+    background-color: #ffcc66;
+    width:36px;
+    height:20px;
+    margin: 0px 0px 0px 88px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
